@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Alarm">
+
+
+    <TimePicker
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/setTime"
+        android:ems = "10"
+        android:inputType = "textPersonName"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/setTime"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="55dp"
+        android:hint="알람이름"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button_cancel"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="75dp"
+            android:layout_marginTop="500dp"
+            android:text="취소" />
+
+        <Button
+            android:id="@+id/button_save"
+            android:layout_width="110dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="500dp"
+            android:text="저장" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>
