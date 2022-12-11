@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    메뉴 클릭했을 때, 클릭 안 했을 때 색 지정-->
+    <item android:color="#454545" android:state_checked="true" />
+    <item android:color="#AEAEAE" android:state_checked="false" />
+</selector>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/firstMenuFragment"
+    tools:context=".FirstFragment"
+    android:background="#f76666">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/menu_person"
+            android:layout_marginTop="70dp"
+            android:layout_marginRight="90dp"
+
+            />
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--흰색박스-->
+            <TextView
+                android:layout_width="411dp"
+                android:layout_height="550dp"
+                android:background="@drawable/menu_white_box"
+                android:layout_marginTop="50dp"
+                />
+
+            <!--프로필 버튼-->
+            <ImageButton
+                android:id="@+id/menu_profile_btn"
+                android:layout_width="140dp"
+                android:layout_height="45dp"
+                android:background="@drawable/menu_profile"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="90dp"
+                />
+
+            <!-- 알러지 지수 버튼-->
+            <ImageButton
+                android:id="@+id/menu_allergy_btn"
+                android:layout_width="185dp"
+                android:layout_height="47dp"
+                android:background="@drawable/menu_allegry"
+                android:layout_marginLeft="70dp"
+                android:layout_marginTop="170dp"
+                />
+
+            <!-- 약 복용 시간 버튼-->
+            <ImageButton
+                android:id="@+id/menu_medicine_time_btn"
+                android:layout_width="187dp"
+                android:layout_height="39dp"
+                android:background="@drawable/menu_medicine_time"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="250dp"
+                />
+
+            <!-- 알러지 물질 체크 버튼-->
+            <ImageButton
+                android:id="@+id/menu_check_btn"
+                android:layout_width="215dp"
+                android:layout_height="40dp"
+                android:background="@drawable/menu_check"
+                android:layout_marginLeft="77dp"
+                android:layout_marginTop="330dp"
+                />
+
+            <!-- 비상전화 -->
+            <ImageButton
+                android:id="@+id/menu_call_btn"
+                android:layout_width="155dp"
+                android:layout_height="41dp"
+                android:background="@drawable/menu_call"
+                android:layout_marginLeft="75dp"
+                android:layout_marginTop="410dp"
+                />
+
+
+
+        </FrameLayout>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

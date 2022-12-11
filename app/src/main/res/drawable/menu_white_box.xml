@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!--메뉴 아이콘 클릭하면 나오는 화면의 흰색 박스 모양 지정-->
+
+<!-- 도형 생성 -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:shape="rectangle">
+
+    <!-- 배경 색은 흰색 -->
+    <solid
+        android:color="#FFFFFF" />
+
+    <!-- 모서리 곡선 설정 -->
+    <corners
+        android:radius="40dp"/>
+
+    <!-- 선 크기 및 색 지정 -->
+    <stroke
+        android:width="0dp"
+        android:color="#FFFF" />
+</shape>

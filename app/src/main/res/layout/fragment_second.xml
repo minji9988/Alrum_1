@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SecondFragment"
+    android:background="#ffffff">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_weight="0.3"
+        android:layout_marginBottom="0dp">
+
+        <ImageView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/alrum_bar"
+            />
+
+        <EditText
+            android:id="@+id/main_search_bar"
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:background="@drawable/border"
+            android:hint="알러지를 입력해주세요."
+            android:textSize="15dp"
+            android:padding="15dp"
+
+            android:layout_marginBottom="50dp"
+
+            />
+
+<!--        <FrameLayout-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content">-->
+
+
+            <ImageButton
+                    android:id="@+id/btn_main_todayallergy"
+                    android:layout_width="290dp"
+                    android:layout_height="110dp"
+                    android:background="@drawable/main_todayallergy_btn"
+                    android:elevation="2dp"
+                    android:outlineProvider="bounds"
+                    />
+
+            <ImageButton
+                android:id="@+id/btn_main_medicinetime"
+                android:layout_width="290dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/main_medicinetime_btn"
+                android:elevation="2dp"
+                android:outlineProvider="bounds"
+               />
+
+            <ImageButton
+                android:id="@+id/btn_main_check"
+                android:layout_width="290dp"
+                android:layout_height="110dp"
+                android:layout_marginTop="40sp"
+                android:background="@drawable/main_allergycheck_btn"
+                android:elevation="2dp"
+                android:outlineProvider="bounds"
+                />
+
+<!--        </FrameLayout>-->
+
+    </LinearLayout>
+
+</LinearLayout>
