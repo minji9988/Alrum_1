@@ -45,6 +45,8 @@ public class MainActivity extends AppCompatActivity {
         firstFragment_2 = new FirstFragment();
         fourthFragment = new FourthFragment();
 
+
+
     }
 
 

@@ -8,20 +8,13 @@
     tools:context=".MedicineTime">
 
     <ImageButton
-        android:id="@+id/btnmakeAlarm"
+        android:id="@+id/btn_make_time"
         android:layout_width="66dp"
         android:layout_height="64dp"
-        android:layout_marginLeft="180dp"
+        android:layout_marginLeft="175dp"
         android:layout_marginTop="600dp"
         android:background="@drawable/btnaddalrum" />
 
-    <ListView
-        android:id="@+id/ListMedicineTime"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-
-
-        />
 
 
 
